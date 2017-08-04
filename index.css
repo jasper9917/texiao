@@ -1,0 +1,151 @@
+*{margin:0;padding:0;}
+ul{list-style: none;}
+a{text-decoration: none;color: #fff}
+body{font-family: 'Lato', Calibri, Arial, sans-serif;font-weight: 400;
+font-size: 100%;background:#000}
+input{border:none;}
+textarea{border:none}
+button{border:none;}
+
+
+.it{transition: all 1s;transform-origin:center bottom;background:#000;}
+/* .add{transform:rotateX(180deg);opacity:0.1}
+.bdd{transform:rotateX(-180deg);opacity:0.1}
+.nad{transform:translateZ(100px);} */
+/*侧边导航*/
+.nav{height:870px;width: 240px;background:#000;color:#fff;
+text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+position: absolute;left: -500px;transition:transform 1s}
+.nav a{color: #fff}
+.fixed{position:fixed;top:150px;left:0px; }
+.nav h3{height: 70px;width: 240px;font-size:2em;text-align: center;
+line-height:70px;font-weight:400;border-bottom:1px solid #dd1338;
+}
+
+.nav .navlist{width:200px;height: 70px;border-bottom:1px solid #dd1338;
+padding: 0 20px;line-height:70px;text-align: center; 
+font-size: 1.5em;font-weight: 200;}
+
+.ac{background:#dd1338;}
+.ac1{transform:translateX(500px)}
+.ac2{transform:translateX(250px)}
+.ac3{background:#dd1338;}
+.ac4{display:none;}
+.ac5{display:none;}
+.ac6{transform:translateX(240px)}
+
+/*choose*/
+.choose{position: fixed;top:20px;left: 10px;z-index: 100;padding:0 10px;
+color:#fff;font-size: 24px;transition:transform 1s}
+.meu{width: 40px;height: 40px;border-radius: 20px;background:#fff;
+	float: left;margin:0 5px;line-height:37px;text-align:center;}
+.meu a{color:#000}
+.meu:hover{background:#dd1338;}
+.pre{width: 40px;height: 40px;border-radius: 20px;background:#fff;
+	float: left;margin:0 5px;line-height:37px;text-align:center;}
+.pre a{color:#000}
+.pre:hover{background:#dd1338}
+.next{width: 40px;height: 40px;border-radius: 20px;background:#fff;
+	float: left;margin:0 5px;line-height:37px;text-align:center;}
+.next a{color:#000}
+.next:hover{background:#dd1338}
+
+/*主要内容*/
+.main{height:870px;transform-style:preserve-3d;perspective:3000px;
+	background: #000;transition:transform 1s;
+}
+
+/*home*/
+.home{width: 100%;height: 800px;position: absolute; transform:translateZ(0px) translateY(0px)}
+.home h4{position: absolute;left: 200px;top:60px;
+font-size:3.5em;color:#fff;}
+.home h2{font-size:3em;font-weight:200;position:absolute;left:700px;
+top: 120px;color:#dd1338}
+.home .slide{width: 980px; height: 500px;
+	transform-style:preserve-3d;perspective:3000px; }
+.home .center{position: absolute;left:275px;top:280px;}
+.home .pic{height: 100%;position: absolute;top: 0;transition:transform 1s}
+.home h3{position: absolute;left: 280px;bottom: 40px;
+font-size:36px;color:#fff; }
+.home .read{width:150px;height: 50px;background:#dd1338;border-bottom:5px solid #fff;
+position:absolute;top:710px;right:300px;
+text-align: center;line-height: 50px;font-size:30px;color:#fff}
+.home .read:hover{background:#fff;border-bottom:5px solid #dd1338;}
+.home .read a:hover{color:#000}
+
+/*model*/
+.model{width: 100%;height: 800px;position:absolute;color:#fff;
+position: absolute;transform:translateZ(-100px) translateY(-800px)
+}
+.model h4{position: absolute;left: 200px;top:60px;
+font-size:3.5em}
+.model h2{font-size:3em;font-weight:200;position:absolute;left:665px;
+top: 150px;color:#dd1338}
+.model .cont{width:1100px;height:600px;position:absolute;left:0;top:220px;
+left: 200px;border:1px solid #fff }
+.model .piclist{width:250px;height:280px;float: left;margin:10px 10px;}
+.model h5{font-size:20px;}
+.model img{width: 100%}
+.model .tu1:hover{ transform:rotate(-90deg) scale(1.2);transition:transform 1s}
+.model .tu2:hover{ transform: scaleY(2);transition:transform 1s}
+.model .tu3:hover{ transform: skewX(30deg);transition:transform 1s}
+.model .tu4:hover{ transform:translateY(30px);transition:transform 1s}
+.model .tu5:hover{ transform:translateY(30px);transition:transform 1s}
+.model .tu6:hover{ transform: skewX(30deg);transition:transform 1s}
+.model .tu7:hover{ transform: scaleY(2);transition:transform 1s}
+.model .tu8:hover{ transform:rotate(-90deg) scale(1.2);transition:transform 1s}
+
+/*about*/
+.about{width: 100%;height: 800px;position:absolute;color:#fff;
+position: absolute;transform:translateZ(-200px) translateY(-800px)}
+.about h4{position: absolute;left: 200px;top:60px;
+font-size:3.5em}
+.about h2{font-size:3em;font-weight:200;position:absolute;left:665px;
+top: 150px;color:#dd1338}
+.about .cont{width:1100px;height:600px;position:absolute;left:0;top:220px;
+left: 200px;}
+.about .p1{position:absolute;left:250px;top:5px;
+font-size:2em;color:#fff;font-weight:300;}
+.about .p2{position:absolute;left:270px;top:50px;
+font-size:2em;color:#dd1338;font-weight:100;}
+.about .p3{position: absolute;top:100px;left:10px;}
+.about .pic{width:300px;height:200px;position:absolute;top:250px;left:50px;}
+.about .pic img{width:100%}
+.about .pic:hover{transform:translateX(200px);transition:transform 1s}
+.about ul{position: absolute;left:650px;top:200px;}
+.about li{font-size:16px;padding:5px 0;}
+.about li a{color:#dd1338}
+.about li:hover{transform:translateX(30px);transition:transform 1s;
+color:#fff}
+.about li a:hover{color:#fff}
+.about .p4{position: absolute;left:10px;top:500px;}
+
+/*contact*/
+.contact{width: 100%;height: 800px;position:absolute;color:#fff;
+position: absolute;transform:translateZ(-300px) translateY(-800px)}
+.contact h4{position: absolute;left: 200px;top:60px;
+font-size:3.5em}
+.contact h2{font-size:3em;font-weight:200;position:absolute;left:665px;
+top: 150px;color:#dd1338}
+.contact .cont{width:1100px;height:600px;position:absolute;left:0;top:220px;
+left: 200px;}
+.contact .we{font-size:2em;color:#dd1338;
+	position:absolute;left:10px;top:5px;font-weight:200}
+.contact .p1{position:absolute;left:10px;top:50px;}
+.contact .p2{position:absolute;left:10px;top:240px;color:#dd1338;
+font-size:1.5em}
+.contact .p3{position:absolute;left:10px;top:300px;}
+.contact .p4{position:absolute;left:10px;top:380px;color:#dd1338;
+font-size:1.5em}
+.contact .p5{position:absolute;left:10px;top:440px;}
+.form{width:300px;height:500px;background:#dd1338;position: absolute;
+top:50px;right:50px;}
+.form input{display:block;height:40px;width:230px;
+margin:20px 25px;padding:5px 10px;}
+.form textarea{display:block;margin-left:25px;padding:10px 10px;
+width:230px;}
+.form button{display:block;width:100px;height: 50px;
+border-bottom:5px solid #000;background:#fff;color:#000;
+margin:o auto;margin:18px 100px;}
+.form button:hover{order-bottom:5px solid #fff;background:#000;color:#fff;}
+
